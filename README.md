@@ -1,6 +1,16 @@
 # Purpose
  This repository contains the code skeleton for NodeJS 8+ and Angular 6+ version. Each folder has its own related README.md file.
  
+# Technology Stack
+* NodeJS 8 +
+* NPM V 6.1.0
+* Angular 6 +
+* BootStrap 4
+* MongoDB 3.2
+* Mongoose ODM
+* JWT for the token based secure API
+* Bable for ES7 based code compiler
+
 ## Folder Information
 * NODEJS folder contains the code for the *NodeJS,Expressjs,Mongoosea and MonodB* based structure
 * Angular folder contains the demo admin panel build in *Angular 6*
