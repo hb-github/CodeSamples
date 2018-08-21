@@ -8,7 +8,7 @@
 ## Run the project and whats inside
  * Bootstrap 4 based components developed in angular 6
  * Whole app is mobile responsive due to boostrap responsive grid
- * 
+ * ``` ng serve ``` to run the project in local
 <br>
 
 | Preview |
