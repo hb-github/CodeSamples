@@ -7,7 +7,7 @@
  * Mongoose 5+
 
 
-# Get familiar with code by below notes.
+### Point of start.
 
  * click on ```server``` folder, you will find the sub folders as per below information. 
  * click on each folder to have access of module wise related files for the API.
