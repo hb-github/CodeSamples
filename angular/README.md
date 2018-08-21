@@ -1,5 +1,28 @@
 # Angular 6 and Bootstrap 4 Based Admin Panel
 
+# Directory Structure
+
+    .src
+        ├── app                     # contains application moduels and components
+        |     ├── auth              # contains the login other authentication related module
+        |	  ├── charts            # responsive charts based components
+        |	  ├── core              # core service for overall application
+        |	  ├── dashboard         # dashboard after the user login can see
+        |	  ├── shared            # all thee shared services and comoponents
+        |	  ├── app-routing.module.ts
+        |	  ├── app.component.html
+        |	  ├── app.component.scss
+        |	  ├── app.component.ts
+        |	  ├── app.module.ts
+        |     
+        ├── assets                  # contains the static assets of the application
+        ├── environment             # this folder contains the environment specific settings
+        ├── styles.scss             # boostrap4 and css3 based stylesheet
+        ├── index.html              # main starter page of the application
+        ├── main.ts                 # main bootstrapper file for the application  
+        └── tsconfig.app.json       # configuration for the typescript
+
+
 ## Instuctions to start in local
  * install the depenedency by running - ``` npm install ``` command.
  * start the project in development mode ``` ng start ```
