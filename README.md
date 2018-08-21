@@ -5,7 +5,7 @@
 * NodeJS 8 +
 * NPM V 6.1.0
 * Angular 6 +
-* BootStrap 4
+* BootStrap 4 [ HTML 5 + CSS 3]
 * MongoDB 3.2
 * Mongoose ODM
 * JWT for the token based secure API
