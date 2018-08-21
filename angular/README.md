@@ -30,7 +30,7 @@
   * Ensure you're running the latest versions Node `v8.x.x`+ (or `v9.x.x`) and NPM `5.x.x`+
   * Please go inside the **angular** folder for angular code.
   * Open the project from text editor like notepad /sublime text editor/ Visual Studio code.
-  * Need to install Typescript and Angular CLI gobally via command prompt.
+  * Need to install Typescript (npm install -g typescript) and Angular CLI (npm install -g @angular/cli) gobally via command prompt.
   * Open the command prompt from this folder to run the ``` npm install ``` to install the dependency.
 
 #### Instuctions to start in local
