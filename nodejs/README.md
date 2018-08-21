@@ -3,6 +3,8 @@
 Express js based node application for the API with MongoDB database.
 
 ### Directory layout
+ * click on ```server``` folder, you will find the sub folders as per below information. 
+ * click on each folder to have access of module wise related files for the API.
 
     .server
     ├── api                   # contains api code for cpanel and front-web
