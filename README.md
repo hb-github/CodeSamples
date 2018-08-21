@@ -12,7 +12,7 @@
 * Bable for ES7 based code compiler
 
 ## Folder Information
-* NODEJS folder contains the code for the *NodeJS,Expressjs,Mongoosea and MonodB* based structure
+* NODEJS folder contains the code for the *NodeJS,Expressjs,Mongoose and MonodB* based structure
 * Angular folder contains the demo admin panel build in *Angular 6*
 * Doc folder contains the related artifacts
 
