@@ -1,0 +1,53 @@
+{
+	"name": "es7-node-express-mongo",
+	"version": "1.0.0",
+	"description": "es7 based express REST API",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "cross-env NODE_ENV=development rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./npm-debug.log --copy-files",
+		"prod": "npm run build && cross-env NODE_ENV=development node dist/index.js",
+		"build-simple": "cross-env NODE_ENV=development babel src -d dist --presets latest",
+		"dev": "nodemon ./src/index.js",
+		"start": "cross-env NODE_ENV=development nodemon --exec babel-node index.js",
+		"seed":"cross-env NODE_ENV=development nodemon --exec babel-node seed"
+	},
+	"author": "HiddenBrains",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^3.0.0",
+		"body-parser": "^1.18.3",
+		"boom": "^7.2.0",
+		"compression": "^1.7.3",
+		"cors": "^2.8.4",
+		"express": "^4.16.3",
+		"express-async-errors": "^3.0.0",
+		"express-status-monitor": "^1.1.5",
+		"express-validation": "^1.0.2",
+		"express-winston": "^2.6.0",
+		"helmet": "^3.13.0",
+		"http-status": "^1.2.0",
+		"joi": "^13.5.2",
+		"jsonwebtoken": "^8.3.0",
+		"lodash": "^4.17.10",
+		"method-override": "^3.0.0",
+		"mongoose": "^5.2.6",
+		"morgan": "^1.9.0",
+		"passport": "^0.4.0",
+		"pretty-error": "^2.1.1",
+		"winston": "^3.0.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.2.6",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"cross-env": "^5.2.0",
+		"eslint": "^5.3.0",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-plugin-import": "^2.13.0",
+		"nodemon": "^1.18.3",
+		"rimraf": "^2.6.2"
+	}
+}
