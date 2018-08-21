@@ -23,10 +23,20 @@
         └── tsconfig.app.json       # configuration for the typescript
 
 
+# Getting Started
+
+#### Instructions: 
+  * Get the code by this command ``` git clone https://github.com/hb-github/CodeSamples.git ```
+  * Ensure you're running the latest versions Node `v8.x.x`+ (or `v9.x.x`) and NPM `5.x.x`+
+  * Please go inside the **angular** folder for angular code.
+  * Open the project from text editor like notepad /sublime text editor/ Visual Studio code.
+  * Open the command prompt from this folder to run the ``` npm install ``` to install the dependency.
+
 ## Instuctions to start in local
  * install the depenedency by running - ``` npm install ``` command.
  * start the project in development mode ``` ng start ```
  * build the project in production mode ``` ng build --prod ```
+ * project should start running on ``` http://localhost:4200 ```
  
 ## Run the project and whats inside
  * Bootstrap 4 based components developed in angular 6

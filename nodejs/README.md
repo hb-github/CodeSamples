@@ -33,24 +33,22 @@
 
 # Getting Started
 
-#Instructions:
+#### Instructions: 
+  * Get the code by this command ``` git clone https://github.com/hb-github/CodeSamples.git ```
+  * Ensure you're running the latest versions Node `v8.x.x`+ (or `v9.x.x`) and NPM `5.x.x`+
+  * Ensure you have MongoDB 3.2 up and running as service.
+  * Please go inside the **nodejs** folder for api code.
+  * Open the project from text editor like notepad /sublime text editor/ Visual Studio code.
+  * Open the command prompt from this folder to run the ``` npm install ``` to install the dependency.
 
-What you need to run this app:
-* `node` and `npm` (`brew install node`)
-* Ensure you're running the latest versions Node `v8.x.x`+ (or `v9.x.x`) and NPM `5.x.x`+
-* Ensure you have MongoDB 3.2 up and running as service.
+#### Global packages:
+  Once you have those, you should install these globals with `npm install --global`:
+  * `eslint` (`npm install --global eslint`)
+  * `prettier` (`npm install --global prettier`)
+  * `prettier-eslint` (`npm install --global prettier-eslint`)
 
-#### In oder to get started we have to install all the dependency of the project via below command:
-   ``` npm install ```
-Once you have those, you should install these globals with `npm install --global`:
-* `eslint` (`npm install --global eslint`)
-* `prettier` (`npm install --global prettier`)
-* `prettier-eslint` (`npm install --global prettier-eslint`)
-
-#### In order to run this project we have to make sure we have MongoDB Installed and running.
-
-## Configuration
-Configuration files live in `/config/constants.js` for different environments of your application
+## Application level Configuration
+Configuration files resides in `/config/constants.js` for different environments of this application.
 
 ## Seed the Database with Dummy data
 Once the MongoDB is runninig and Mongo URL is set from above path in ```/config/constants.js``` development mode in ``` mongo ``` object.
