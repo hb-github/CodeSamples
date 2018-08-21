@@ -56,6 +56,7 @@ run the command `npm run seed` for data seeding.
 
 ### run in local by running below code.
 ``` npm start ``` 
+API endpoint : ``` http://localhost:4000/api/v1/auth/login ``` 
 
 ### build api for production mode.
 `npm run build`
