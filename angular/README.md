@@ -21,6 +21,6 @@
 
 | Preview |
 |:---------------:|
-<a href="https://ibb.co/mj7BQz"><img src="https://preview.ibb.co/msq9Ce/charts.png" alt="charts" border="0"></a>
+|<a href="https://ibb.co/mj7BQz"><img src="https://preview.ibb.co/msq9Ce/charts.png" alt="charts" border="0"></a>|
 <br>
-<a href="https://ibb.co/m16hXe"><img src="https://preview.ibb.co/jMnBQz/dashboard.png" alt="dashboard" border="0"></a>
+|<a href="https://ibb.co/m16hXe"><img src="https://preview.ibb.co/jMnBQz/dashboard.png" alt="dashboard" border="0"></a>|
