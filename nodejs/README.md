@@ -1,10 +1,18 @@
-# ES7-Express-MongoDB - API
+# EcmaScript 6 and Classes based Moduler API in NODEJS.
 
-Express js based node application for the API with MongoDB database.
+ * NodeJS 8+ 
+ * ExpressJS 4+
+ * NPM 6+
+ * MongoDB 3.2+
+ * Mongoose 5+
 
-### Directory layout
+
+# Get familiar with code by below notes.
+
  * click on ```server``` folder, you will find the sub folders as per below information. 
  * click on each folder to have access of module wise related files for the API.
+
+### Directory layout
 
     .server
     ├── api                   # contains api code for cpanel and front-web
@@ -24,31 +32,32 @@ Express js based node application for the API with MongoDB database.
     └── README.md             # contains the information
 
 # Getting Started
-## Dependencies
+
+#Instructions:
+
 What you need to run this app:
 * `node` and `npm` (`brew install node`)
 * Ensure you're running the latest versions Node `v8.x.x`+ (or `v9.x.x`) and NPM `5.x.x`+
+* Ensure you have MongoDB 3.2 up and running as service.
 
+#### In oder to get started we have to install all the dependency of the project via below command:
+   ``` npm install ```
 Once you have those, you should install these globals with `npm install --global`:
 * `eslint` (`npm install --global eslint`)
 * `prettier` (`npm install --global prettier`)
 * `prettier-eslint` (`npm install --global prettier-eslint`)
 
-# Configuration
+#### In order to run this project we have to make sure we have MongoDB Installed and running.
+
+## Configuration
 Configuration files live in `/config/constants.js` for different environments of your application
 
-## Installing
-* `npm install` to install all dependencies or `yarn`
-* `npm start` to start the server
+## Seed the Database with Dummy data
+Once the MongoDB is runninig and Mongo URL is set from above path in ```/config/constants.js``` development mode in ``` mongo ``` object.
+run the command `npm run seed` for data seeding.
 
-## seed data in database
-`npm run seed`
+### run in local by running below code.
+``` npm start ``` 
 
-### build api
+### build api for production mode.
 `npm run build`
-
-```
-"build": "cross-env NODE_ENV=development rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./npm-debug.log --copy-files",
-```
-
-## Note: Make sure MongoDB is up and running before you start the project.
