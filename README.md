@@ -16,10 +16,12 @@
 * Angular folder contains the demo admin panel build in *Angular 6*
 * Doc folder contains the related artifacts
 
-# Angular code
+## Angular code
 * https://github.com/hb-github/CodeSamples/tree/master/angular
-# NodeJS code
+## NodeJS code
 * https://github.com/hb-github/CodeSamples/tree/master/nodejs
+## Project screens
+* https://github.com/hb-github/CodeSamples/tree/master/docs
 
 | Preview |
 |:---------------:|
