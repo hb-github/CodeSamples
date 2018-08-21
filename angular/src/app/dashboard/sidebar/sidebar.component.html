@@ -1,0 +1,17 @@
+<div class="sidebar" [class.hide]="menuService.sidebarToggleValue">
+  <div class="sidebar-header align-middle">
+    <span class="text-uppercase p-3">hb</span>
+    <strong class="heading text-uppercase d-inline-block mini-hide">ADMINISTRATOR</strong>
+  </div>
+  <hr class="underline">
+  <div class="sidebar-body">
+    <ul>
+      <li *ngFor="let item of sidebarItems;let i = index;" class="sidebar-item" [class.active]="temp.isActive" #temp="routerLinkActive"
+        routerLinkActive [routerLinkActiveOptions]="{exact: true}">
+        <a [routerLink]="item.link"><i class="material-icons">{{item.icon}}</i><strong class="mini-hide text-capitalize ">{{item.label}}</strong>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div *ngIf="!menuService.sidebarToggleValue" class="sidebarOutside" (click)="menuService.sidebarToggle()"></div>
